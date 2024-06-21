@@ -25,7 +25,9 @@ _(Note: Once we setup a secure npm proxy repository, this copy step will be repl
 
 Copy the `node_modules` folder from the share drive into the root of your project folder.
 
-_(Note: Copying from the share drive will be slow. So, for subsequent projects, copy node_modules from the original project.)_
+**C:\OMV-Share\Resources\code\React\node_modules**
+
+_(Note: Copying from the share drive will be slow. So, for subsequent projects, copy `node_modules` from your original project.)_
 
 ## Running the project
 
