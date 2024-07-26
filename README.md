@@ -1,4 +1,4 @@
-# React + Vite
+# React + Vite + SASS
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -21,13 +21,9 @@ git clone  git@gitlab.lowell.perseverenow.org:persevere-01/resources/react-vite-
 
 ### Install dependencies
 
-_(Note: Once we setup a secure npm proxy repository, this copy step will be replaced by an install step.)_
-
-Copy the `node_modules` folder from the share drive into the root of your project folder.
-
-**C:\OMV-Share\Resources\code\React\node_modules**
-
-_(Note: Copying from the share drive will be slow. So, for subsequent projects, copy `node_modules` from your original project.)_
+```bash
+ npm install --registry http://192.168.1.49:4873
+```
 
 ## Running the project
 
