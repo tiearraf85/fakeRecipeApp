@@ -1,0 +1,33 @@
+
+.recipes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    
+
+    
+
+}
+
+.card {
+    background-image: linear-gradient(to bottom, #cc6600 0%, #cc9900 100%);
+     color: wheat;
+     
+
+    h1{
+        font-style: italic;
+        text-align: center;
+
+    }
+
+    p {
+        padding: 1rem;
+    }
+
+    img{
+        margin-left: 30ch;
+        border-radius: 50%;
+        border: 2px solid #663300;
+        
+    }
+}
