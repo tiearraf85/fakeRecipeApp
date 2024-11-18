@@ -6,6 +6,7 @@ import Recipe from './Recipe';
 export default function RecipeCard({recipe}) {
    let instructions = recipe.instructions;
    let ingredients = recipe.ingredients;
+   
 console.log(recipe.ingredients)
    
     return (

@@ -4,7 +4,7 @@ import RecipeCard from "./RecipeCard";
 
 export async function loader({params}) {
     const baseUrl = 'https://dummyjson.com/';
-    const recipeUrl =  `${baseUrl}recipes/meal-type/${params.mealType}`;
+    const recipeUrl =  `${baseUrl}recipes/meal-type/${params.mealType}?limit=50`;
     const resp = await fetch(recipeUrl, {cache: 'default'});
     const recipes = await resp.json(); 
     return recipes;
@@ -29,9 +29,7 @@ export default function Recipe() {
         <RecipeCard  recipe={recipe} key={recipe.id} />
         )} 
 
-       <div>
-        
-       </div>
+       
         
         </div>
         </>
