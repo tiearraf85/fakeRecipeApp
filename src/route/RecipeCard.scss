@@ -1,4 +1,53 @@
-ol {
-    width: 40ch;
-    color: wheat;
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    // margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+
+
+    .rate {
+        color: brown;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .wrap {
+        // padding: 1rem;
+        justify-content: center;
+    }
+
+    .foodImg {
+        display: flex;
+        justify-content: center;
+
+        img {
+            filter: drop-shadow(0px 5px 5px black);
+        }
+
+
+    }
+
+    h1 {
+        text-align: center;
+        text-decoration: underline;
+        max-width: 300px;
+        color: wheat;
+        font-size: 28px;
+    }
+
+
+    .middle {
+        display: flex;
+
+    }
+
+    
+.color {
+    font-weight: 600;
+    
+}
+
 }

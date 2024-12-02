@@ -1,9 +1,15 @@
-.homePage{
+.homePage {
     color: wheat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 
     h1 {
-    text-align: center;
-    font-size: 5rem;
-    color: wheat;
-}
+        text-align: center;
+        font-size: 5rem;
+        color: wheat;
+      
+
+    }
 }
