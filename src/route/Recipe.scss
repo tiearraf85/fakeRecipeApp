@@ -2,21 +2,20 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 5rem;
+    padding-bottom: 5rem;
+    
 
 
 }
 .recipes {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 2rem;
-    // display: flex;
     gap: 3rem;
-    justify-content: space-around;
-  
-   
-    
-    justify-content: space-around;
+    justify-content: space-around;    
     flex-basis: 2ch;
+    padding: 2rem;
+    
     
         h1{
             font-style: italic;
@@ -41,7 +40,6 @@
     
 
 .card {
-    
         align-items: center;
         justify-content: center;
         background-image: linear-gradient(to bottom, #cc6600 0%, #cc9900 100%);

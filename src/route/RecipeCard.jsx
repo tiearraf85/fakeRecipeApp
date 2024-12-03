@@ -11,10 +11,12 @@ export default function RecipeCard({ recipe, setSelectedCard }) {
 
 
 
-    return (
+    return ( 
+    <>
+    
         <div onClick={() => setSelectedCard(recipe.id)} className='card'>
 
-            <h1>{recipe.name}</h1>
+           <h1>{recipe.name}</h1>
             <div className='wrap'>
                 <div className="foodImg" >
                     <img width={300} src={recipe.image} alt={recipe.name} key={recipe.id}></img>
@@ -54,6 +56,7 @@ export default function RecipeCard({ recipe, setSelectedCard }) {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 {/* <Recipe /> */ }
