@@ -1,0 +1,32 @@
+body {
+  background-color: #ff8000;
+
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+  font-weight: 800;
+  font-size: 2rem;
+
+  a {
+    text-decoration: none;
+
+  }
+
+  a:active {
+    color: white;
+  }
+
+  a:hover {
+    color: black;
+  }
+
+  .bars{
+    background-color:white;
+    height: 2rem;
+    width: 2rem;
+    color: wheat;}
+}

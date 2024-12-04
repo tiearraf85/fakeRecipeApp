@@ -1,0 +1,62 @@
+.full{
+    
+
+
+.name {
+    display: flex;
+    justify-content: center;
+
+}
+
+.difficult {
+    display: flex;
+    justify-content: space-around;
+    font-size: 5rem;
+}
+
+.ingred, .instru{
+    font-weight: 800;
+    font-size: 3ch;
+}
+
+.set {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ordered, .unOrder{
+    font-weight: 600;
+    font-size: 2ch;
+}
+
+.serv {
+    font-size: 2.5ch;
+    font-weight: 800;
+
+}
+
+.time {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    
+}
+
+.color {
+    font-weight: 800;
+}
+
+.backButt {
+    background-color: chocolate;
+    padding: 0rem 2rem 0rem 2rem;
+    color: whitesmoke;
+
+}
+
+.search {
+    font-size: 2rem;
+    // margin-top: 1rem;
+
+}
+
+}
