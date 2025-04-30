@@ -5,7 +5,6 @@ import Recipe, { loader as recipeLoader } from './src/route/Recipe';
 import './index.css';
 import Root from './src/components/Root';
 import ErrorPage from './src/components/ErrorPage';
-import Home from './src/route/Home';
 
 
 
