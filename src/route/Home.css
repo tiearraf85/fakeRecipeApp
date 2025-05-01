@@ -1,2 +1,12 @@
-/*# sourceMappingURL=Home.css.map */
-
+.homePage {
+  color: wheat;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.homePage h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: wheat;
+}/*# sourceMappingURL=Home.css.map */

@@ -1,4 +1,27 @@
+body {
+  background-color: #ff8000;
+}
+
 .navbar {
   display: flex;
-  background-color: blue;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+  font-weight: 800;
+  font-size: 2rem;
+}
+.navbar a {
+  text-decoration: none;
+}
+.navbar a:active {
+  color: white;
+}
+.navbar a:hover {
+  color: black;
+}
+.navbar .bars {
+  background-color: white;
+  height: 2rem;
+  width: 2rem;
+  color: wheat;
 }/*# sourceMappingURL=NavBar.css.map */

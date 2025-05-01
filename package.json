@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "@swc/core": "^1.11.24",
+    "@vitejs/plugin-react-swc": "^3.9.0",
     "sass-embedded": "^1.87.0"
   }
 }

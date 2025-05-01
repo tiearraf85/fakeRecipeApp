@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3rem;
+  border-radius: 10px;
+}
+.card .rate {
+  color: brown;
+  display: flex;
+  align-items: center;
+}
+.card .wrap {
+  justify-content: center;
+}
+.card .foodImg {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.card .foodImg img {
+  filter: drop-shadow(0px 5px 5px black);
+}
+.card h1 {
+  text-align: center;
+  text-decoration: underline;
+  max-width: 300px;
+  color: wheat;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+}
+.card .middle {
+  display: flex;
+}
+.card .color {
+  font-weight: 600;
+}/*# sourceMappingURL=RecipeCard.css.map */
